@@ -1,0 +1,28 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MultCalculadora</title>
+    <script src="Multcalculadora.js"></script>
+    <link rel="stylesheet" type="text/css" href="MultCalculadora.css">
+</head>
+<body>
+    <form>
+        <div id="Multcalculadora">
+            MultCalculadora
+        </div>
+        <div id="titulo">
+            <input id="imc" type="radio" name="selecao" onclick="acessarIMC();"> IMC
+            <input id="reta" type="radio" name="selacao" onclick="acessarReta();"> Retângulo
+            <input id="Circ" type="radio" name="selecao" onclick="acessarCirc();"> Círculo
+        </div>
+        <div id="box">
+            <label>Raio:</label>
+            <input id = "raio" type="text" name = "Raio" class="alinhamento" >
+        </div>
+        <div id="calculo">
+            <button type="button" onclick="calcularCirc();">Calcular</button>
+        </div>
+    </form>
+</body>
+</html>
